@@ -1,0 +1,16 @@
+{
+  "name": "svelte-mdi",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "MDI svg for svelte",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.cjs"
+  },
+  "author": "HeadMad",
+  "license": "ISC",
+  "devDependencies": {
+    "@mdi/svg": "^7.0.96",
+    "cheerio": "1.0.0-rc.12"
+  }
+}
