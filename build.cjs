@@ -47,7 +47,7 @@ const generateComponentSource = (file) => {
   return template.replace("%svg%", $.html($svg));
 }
 
-let reExports = '';
+// let reExports = '';
 
 const filenames = fs.readdirSync(srcDir);
 console.log("Generating " + filenames.length + " components");
@@ -72,13 +72,13 @@ for(let i = 0; i < filenames.length; i++){
     componentSource
   );
 
-  reExports += `export {default as ${componentName}} from '${relativeDestDir}/${componentFileName}';`
+  // reExports += `export {default as ${componentName}} from '${relativeDestDir}/${componentFileName}';`
 }
 
-fs.writeFileSync(
-  path.join(__dirname, 'index.js'),
-  reExports
-);
+// fs.writeFileSync(
+//   path.join(__dirname, 'index.js'),
+//   reExports
+// );
 
 // process.stdout.write("\n");
 

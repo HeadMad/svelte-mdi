@@ -1,7 +1,6 @@
 {
   "name": "svelte-mdi",
   "version": "1.0.0",
-  "type":"module",
   "description": "MDI svg for svelte",
   "main": "index.js",
   "scripts": {
