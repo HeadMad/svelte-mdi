@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MDI svg for svelte",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "node build.cjs"
   },

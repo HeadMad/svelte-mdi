@@ -1,3 +1,3 @@
-module.exports = function (iconName) {
-  return require(`./svg/${iconName}.svelte`);
+export default function(iconName) {
+  return import(`./svg/${iconName}.svelte`);
 };
